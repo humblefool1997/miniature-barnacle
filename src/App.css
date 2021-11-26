@@ -1,0 +1,76 @@
+body {
+  background-color: whitesmoke;
+}
+
+.offsets, .dimensions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.square {
+  padding: 8px;
+  border: 1px solid black;
+  background-color: white;
+  font-size: 18px;
+}
+
+select {
+  width: 50px;
+  margin: 20px;
+}
+
+.clickedSquare {
+  background-color: teal;
+}
+
+.inputs {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: left;
+  
+}
+
+.matrices {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.outputSquare {
+  padding: 10px;
+}
+
+.unclickableSquare {
+  background-color: transparent;
+  border: 1px solid transparent;
+  pointer-events: none;
+  font-weight: bold;
+}
+
+.header {
+  text-align: center;
+  background-color: white;
+  padding: 5px;
+  color: black;
+  font-family: 'Sora', sans-serif;
+ }
+
+.matrix {
+  margin: 20px;
+}
+
+input {
+  margin: 20px;
+}
+
+.coloredSquare {
+  background-color: teal;
+}
